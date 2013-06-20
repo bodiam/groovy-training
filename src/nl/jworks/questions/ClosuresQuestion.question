@@ -1,0 +1,17 @@
+package nl.jworks.questions
+
+def working = ...
+
+/** hint: should print 'I work at atos' */
+println working("I","work at")
+
+/** hint: use 'ncurry' to create a new closure */
+def newClosure = working. ...
+
+/** call a closure using () or .call() */
+def m(arg, newClosure) {
+
+}
+
+
+m('I',newClosure)

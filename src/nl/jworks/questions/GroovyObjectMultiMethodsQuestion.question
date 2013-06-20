@@ -1,0 +1,23 @@
+package nl.jworks.questions
+
+class Cheese {
+    int value
+}
+
+class Flower {
+    int price
+}
+
+class Printer {
+
+    // TODO
+    // Create methods here which can print the value of cheese
+    // and the price of flowers
+
+}
+
+// For flowers
+new Printer().print(...)
+
+// For cheese
+new Printer().print(...)

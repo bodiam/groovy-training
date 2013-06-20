@@ -1,0 +1,52 @@
+package nl.jworks.questions
+
+// Refactor this
+class Person {
+    private String name
+    private int age
+
+    Person() {
+    }
+
+    Person(int age, String name) {
+        this.age = age
+        this.name = name
+    }
+
+    int getAge() {
+        return age
+    }
+
+    void setAge(int age) {
+        this.age = age
+    }
+
+    String getName() {
+        return name
+    }
+
+    void setName(String name) {
+        this.name = name
+    }
+}
+
+// Use getters
+Person personType = new Person(name:'Erik', age:33)
+assert ... == 'Erik'
+assert ... == 33
+
+// Use a map
+def person =  new Person(name: 'Erik', age:33)
+assert ... == 'Erik'
+assert ... == 33
+
+// Use properties
+Person properties = new Person()
+properties.name = 'Erik'
+properties.age = 33
+
+assert ... == 'Erik'
+assert ... == 33
+
+
+

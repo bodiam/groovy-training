@@ -1,0 +1,13 @@
+package nl.jworks.questions
+
+int numberValue = 
+boolean booleanValue = 
+def object = 
+
+assert numberValue && booleanValue && object
+
+numberValue = 
+booleanValue = 
+object = 
+
+assert !numberValue && !booleanValue && !object

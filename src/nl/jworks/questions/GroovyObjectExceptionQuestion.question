@@ -1,0 +1,19 @@
+package nl.jworks.questions
+
+class Database {
+    void connect() {
+        throw new RuntimeException("Could not connect to the database")
+    }
+
+    void close() {
+        println "Closing connection to the database"
+    }
+
+}
+
+Database database = new Database()
+
+// TODO: Handle the error here, and make sure that the databaseconnection will be closed
+// whenever a connection has finished (either error or no error)
+database.connect()
+

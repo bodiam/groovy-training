@@ -1,0 +1,9 @@
+// With grouping we get a multidimensional array.
+def group = ('Henk and Henk, Robert and Wim' =~ /(\w+) and (\w+)/)
+assert group.hasGroup()
+assert 0 == group.getCount()
+assert ''== group[0][0]
+assert '' == group[0][1]
+assert '' == group[0][2]
+assert '' == group[1][1]
+assert '' == group[1][2]

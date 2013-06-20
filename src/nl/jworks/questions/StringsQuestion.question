@@ -1,0 +1,23 @@
+package nl.jworks.questions
+// Strings
+String number =
+assert number == 'one'
+
+// GStrings
+String text = "welcome $name"
+assert text == "welcome Atos"
+
+// Multiline GStrings
+String language = 'Groovy'
+String trainer = 'Erik'
+String template = """welcome to
+our training
+about
+presented by
+
+def result = '''welcome to
+our training
+about Groovy
+presented by Erik'''
+
+assert result == template

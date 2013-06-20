@@ -1,0 +1,24 @@
+package nl.jworks.questions
+
+def numbers = [1, 2, 3, 4, 5]
+def names = ['erik', 'henk', 'wim', 'klaas']
+def fruits = [kiwi:4, grapefruit: 2, banana: 8]
+
+
+numbers.each {
+    // print the number
+}
+
+names.each { name ->
+    // print the name
+}
+
+def doubles = numbers.collect { number ->
+    // double each number
+}
+assert [2,4, 6, 8, 10] == doubles
+
+
+fruits.each { fruit, price ->
+    // print a text: the <fruit> costs <price> euro
+}
