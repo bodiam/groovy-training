@@ -9,9 +9,12 @@ numbers.each {
     // print the number
 }
 
-names.each { name ->
-    // print the name
+// print numbers in till 9 using a range
+<range>.each {
+    println
 }
+
+// print all names containing a 'k'
 
 def doubles = numbers.collect { number ->
     // double each number

@@ -7,9 +7,21 @@ numbers.each {
     println it
 }
 
-names.each { name ->
-    println name
+
+// print numbers in till 9 using a range
+(1..<10).each { number ->
+    println number
 }
+
+// print all names containing a 'k'
+names.each {
+    if(it.contains('k')) {
+        println it
+    }
+}
+
+// or....
+println names.findAll { it.contains('k')}
 
 def doubles = numbers.collect { number ->
     number * 2
