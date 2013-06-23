@@ -1,0 +1,11 @@
+// Write the following text to a file
+
+def text = """1 hello, this file will
+2 be written to a file
+3 I can retrieve it later
+4 and do things with it
+"""
+
+// Read the file
+
+// Find only the lines starting with an even number, and print them
